@@ -11,7 +11,7 @@ For details on how to convert from a single-themed document into a Quarto Extens
 You can obtain a copy of the extension by using:
 
 ```bash
-quarto use template coatless-quarto/hsnr-revealjs
+quarto use template produnis/hsnr-revealjs
 ```
 
 This will install the extension and create an example qmd file that
