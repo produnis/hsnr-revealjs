@@ -27,6 +27,8 @@ contributes:
       link-external-icon: true
       link-external-newwindow: true
       bibliography: HSNRtheme/literatur.bib
+      filters: 
+        - HSNRtheme/timer.lua
       format-resources:
         - HSNRtheme
         - images

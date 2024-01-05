@@ -1,7 +1,14 @@
 ---
-#bibliography: literatur.bib
-format: 
-  hsnr-revealjs
+author:
+  - name: Your Name
+    orcid: 0000-0000-0000-0000
+    email: alias@email.com
+    affiliations: Your Institution
+date: last-modified
+footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
+#bibliography: my_literature.bib
+format:
+  hsnr-revealjs: default
 ---
 
 
@@ -22,6 +29,10 @@ format:
 ![](HSNRtheme/Hochschule_niederrhein.png){.absolute bottom=0 right=0 width=300}
 :::
 
+##
+
+:::{.timer #FIrstTry seconds=30}
+:::
 
 <!------------------------------------>
 ## Quarto und RevealJS {.smaller}
@@ -276,7 +287,7 @@ Ich bin eine Blankbox mit `.bg-light-blue` und `.white`
 ## Floating Shadow Images
 
 :::{.float-right .shadow-img}
-![](images/beforeyoustartitsnoteasy.jpg){width=300}
+![](HSNRtheme/beforeyoustartitsnoteasy.jpg){width=300}
 :::
 
 <br>
@@ -293,7 +304,7 @@ Ich bin eine Blankbox mit `.bg-light-blue` und `.white`
 Mittels der Klasse `{.tc}` können Inhalte zentriert werden
 
 :::{.tc}
-![Wau Holland (✝ 2001)](images/WauHolland_1.jpg){width="350"}
+![](HSNRtheme/beforeyoustartitsnoteasy.jpg){width="350"}
 
 Ich bin ein zentrierter Text!
 :::
@@ -346,9 +357,72 @@ Mittels der Klasse `{.figw10}` bis `{.figw1000}` kann die Größe von Bildern be
 
 
 
+<!-- ----------------------------------------- -->
+## Timer  {.HSNRblue1 .smaller}
+
+Es können beliebige Countdown-Timer verwendet werden. Der Aufruf lautet
+
+:::{.size45}
+```
+:::{.timer #UNIQUE-ID seconds=100}
+:::
+```
+:::
+
+Wobei `UNIQUE-ID` durch einen eindeutigen Wert ersetzt werden muss. Mittels `seconds` kann bestimmt werden, wie lange der Timer herunterzählen soll.
+
+::::: {.columns}
+
+:::: {.column width="50%" .size45}
+```
+:::{.timer #FirstTry seconds=100}
+:::
+```
+::::
+
+:::: {.column width="50%"}
+:::{.timer #FirstTry seconds=100}
+:::
+::::
+
+:::::
 
 
 
+
+
+<!-- ----------------------------------------- -->
+
+
+<!-- ----------------------------------------- -->
+## Timerbeispiele (Seite evtl. neu laden)
+
+Es können beliebig viele Timer verwendet werden, solange immer eine eindeutige `UNIQE-ID` verwendet wird.
+
+::::: {.columns}
+
+:::: {.column width="50%" .size35}
+```html
+:::{.timer #timer9a seconds=540}
+:::
+```
+
+:::{.timer #timer9a seconds=540}
+:::
+::::
+
+:::: {.column width="50%" .size35}
+```html
+:::{.timer #timer30sec seconds=30}
+:::
+```
+:::{.timer #timer30sec seconds=30}
+:::
+::::
+
+:::::
+
+<!-- ----------------------------------------- -->
 
 
 <!-- ----------------------------------------- -->
@@ -361,9 +435,9 @@ Die letzten zwei Folien bilden die "Vielen-Dank-Karte" sowie die verwendete Lite
 
 :::{layout-ncol=2 layout-nrow=1 .shadow-img}
 
-![](images/letztefolie1.png)
+![](HSNRtheme/letztefolie1.png)
 
-![](images/letztefolie2.png)
+![](HSNRtheme/letztefolie2.png)
 
 :::
 
@@ -423,7 +497,9 @@ Fachbereich Gesundheitswesen<br>
 ![](HSNRtheme/GebauedeH_Rand.webp){width=80%}
 :::
 
-::::: {.visitenkarte2 .absolute bottom=0}
+<br><br><br><br><br><br><br>
+
+::::: {.visitenkarte2}
 :::: {.columns}
 ::: {.column width="18%"}
 <center>
