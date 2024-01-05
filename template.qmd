@@ -29,10 +29,7 @@ format:
 ![](HSNRtheme/Hochschule_niederrhein.png){.absolute bottom=0 right=0 width=300}
 :::
 
-##
 
-:::{.timer #FIrstTry seconds=30}
-:::
 
 <!------------------------------------>
 ## Quarto und RevealJS {.smaller}
