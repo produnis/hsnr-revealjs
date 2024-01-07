@@ -1,10 +1,9 @@
 # HSNR-themed Revealjs Extension For Quarto
 
-A [quarto extension](https://quarto.org/docs/extensions/) featuring an HSNR-inspired theme for the [reveal.js format](https://quarto.org/docs/presentations/revealjs/).
+A [quarto extension](https://quarto.org/docs/extensions/) featuring an [HSNR](https://www.hs-niederrhein.de)-inspired theme for the [reveal.js format](https://quarto.org/docs/presentations/revealjs/).
 
 See the included [template.qmd](template.qmd) file for an example of the theme and integration into Quarto or explore the rendered version [here](http://quarto.thecoatlessprofessor.com/hsnr-revealjs/).
 
-For details on how to convert from a single-themed document into a Quarto Extension for RevealJS see [PR #1](https://github.com/coatless-quarto/hsnr-revealjs/pull/1)
 
 ## Installing
 
@@ -23,21 +22,19 @@ Once the extension is installed, you can use the extension by setting the `forma
 
 ```markdown
 ---
-title: A title
-subtitle: A subtitle
-footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
-format:
-  hsnr-revealjs: default
 author:
   - name: Your Name
     orcid: 0000-0000-0000-0000
     email: alias@email.com
     affiliations: Your Institution
 date: last-modified
+footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
+format:
+  hsnr-revealjs: default
 ---
 ```
 
 ## Acknowledgements
 
-This theme was developed as a result of answering a question asked by [Joe Slam](https://github.com/produnis) on the [Quarto issue tracker (#7470)](https://github.com/quarto-dev/quarto-cli/issues/7470#issuecomment-1875929330).
+This theme was developed with the help of [James J Balamuta](https://github.com/coatless-quarto/hsnr-revealjs), thx for your time and explanations.
 
