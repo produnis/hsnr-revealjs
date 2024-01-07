@@ -29,5 +29,3 @@ contributes:
       bibliography: HSNRtheme/literatur.bib
       filters: 
         - HSNRtheme/timer.lua
-      format-resources:
-        - images
