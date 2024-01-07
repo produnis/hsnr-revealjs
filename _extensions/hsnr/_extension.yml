@@ -1,6 +1,6 @@
 title: hsnr
 author: Joe Slam and James Joseph Balamuta
-version: 1.0.1
+version: 1.0.2
 quarto-required: ">=1.3.0"
 contributes:
   formats:
@@ -30,5 +30,4 @@ contributes:
       filters: 
         - HSNRtheme/timer.lua
       format-resources:
-        - HSNRtheme
         - images
