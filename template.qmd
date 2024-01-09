@@ -432,9 +432,9 @@ Die letzten zwei Folien bilden die "Vielen-Dank-Karte" sowie die verwendete Lite
 
 :::{layout-ncol=2 layout-nrow=1 .shadow-img}
 
-![](_extensions/produnis/hsnr/letztefolie1.png)
+![](_extensions/produnis/hsnr/letztefolie1.webp)
 
-![](_extensions/produnis/hsnr/letztefolie2.png)
+![](_extensions/produnis/hsnr/letztefolie2.webp)
 
 :::
 
@@ -460,7 +460,7 @@ Hier folgen mal ein paar Zitate für die Publikationsliste:
 <!-- ======================================================  -->
 <!-- ------ Letzte Folie #1 ----------------------------------->
 <!-- ======================================================  -->
-## {background-image="_extensions/produnis/hsnr/KrefeldCampus_night.jpg" background-size="120%"}
+## {background-image="_extensions/produnis/hsnr/KrefeldCampus_night.webp" background-size="120%"}
 
 ::: {.vielendank}
 <center><b>VIELEN DANK!</b></center>
@@ -518,7 +518,7 @@ Fachbereich Gesundheitswesen<br>
 
 
 <!-- ------ Literatur -------------------------------------->
-## {.smaller background-image="_extensions/produnis/hsnr/bibliothek.jpg" background-size="120%"}
+## {.smaller background-image="_extensions/produnis/hsnr/bibliothek.webp" background-size="120%"}
 
 :::: {.literaturliste}
 ::: {#refs}
