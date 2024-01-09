@@ -28,6 +28,7 @@ author:
     email: alias@email.com
     affiliations: Your Institution
 date: last-modified
+bibliography: literatur.bib
 format:
   hsnr-revealjs: 
     footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
