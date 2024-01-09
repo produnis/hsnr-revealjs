@@ -28,9 +28,9 @@ author:
     email: alias@email.com
     affiliations: Your Institution
 date: last-modified
-footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
 format:
-  hsnr-revealjs: default
+  hsnr-revealjs: 
+    footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
 ---
 ```
 
