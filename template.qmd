@@ -5,16 +5,16 @@ author:
     email: alias@email.com
     affiliations: Your Institution
 date: last-modified
-footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
-#bibliography: my_literature.bib
+bibliography: literatur.bib
 format:
-  hsnr-revealjs: default
+  hsnr-revealjs: 
+    footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
 ---
 
 
 ::: {.HSNR-title}
 
-## Quarto und Revealjs {background-image="_extensions/produnis/hsnr/HSNRtheme/KreisschwungKrefeld.png" background-position="left" background-size="21%"}
+## Quarto und Revealjs {background-image="_extensions/produnis/hsnr/KreisschwungKrefeld.png" background-position="left" background-size="21%"}
 
 ### Eine kurze Einführung
 
@@ -26,7 +26,7 @@ format:
 
 ###### 05.01.2024 | MHC
 
-![](_extensions/produnis/hsnr/HSNRtheme/Hochschule_niederrhein.png){.absolute bottom=0 right=0 width=300}
+![](_extensions/produnis/hsnr/Hochschule_niederrhein.png){.absolute bottom=0 right=0 width=300}
 :::
 
 
@@ -284,7 +284,7 @@ Ich bin eine Blankbox mit `.bg-light-blue` und `.white`
 ## Floating Shadow Images
 
 :::{.float-right .shadow-img}
-![](_extensions/produnis/hsnr/HSNRtheme/beforeyoustartitsnoteasy.jpg){width=300}
+![](_extensions/produnis/hsnr/beforeyoustartitsnoteasy.jpg){width=300}
 :::
 
 <br>
@@ -301,7 +301,7 @@ Ich bin eine Blankbox mit `.bg-light-blue` und `.white`
 Mittels der Klasse `{.tc}` können Inhalte zentriert werden
 
 :::{.tc}
-![](_extensions/produnis/hsnr/HSNRtheme/beforeyoustartitsnoteasy.jpg){width="350"}
+![](_extensions/produnis/hsnr/beforeyoustartitsnoteasy.jpg){width="350"}
 
 Ich bin ein zentrierter Text!
 :::
@@ -432,9 +432,9 @@ Die letzten zwei Folien bilden die "Vielen-Dank-Karte" sowie die verwendete Lite
 
 :::{layout-ncol=2 layout-nrow=1 .shadow-img}
 
-![](_extensions/produnis/hsnr/HSNRtheme/letztefolie1.png)
+![](_extensions/produnis/hsnr/letztefolie1.png)
 
-![](_extensions/produnis/hsnr/HSNRtheme/letztefolie2.png)
+![](_extensions/produnis/hsnr/letztefolie2.png)
 
 :::
 
@@ -460,7 +460,7 @@ Hier folgen mal ein paar Zitate für die Publikationsliste:
 <!-- ======================================================  -->
 <!-- ------ Letzte Folie #1 ----------------------------------->
 <!-- ======================================================  -->
-## {background-image="_extensions/produnis/hsnr/HSNRtheme/KrefeldCampus_night.jpg" background-size="120%"}
+## {background-image="_extensions/produnis/hsnr/KrefeldCampus_night.jpg" background-size="120%"}
 
 ::: {.vielendank}
 <center><b>VIELEN DANK!</b></center>
@@ -472,7 +472,7 @@ Hier folgen mal ein paar Zitate für die Publikationsliste:
 :::: {.columns}
 ::: {.column width="18%"}
 <center>
-![](_extensions/produnis/hsnr/HSNRtheme/HSNLogo_quadrat2.jpg){width="200px"}
+![](_extensions/produnis/hsnr/HSNLogo_quadrat2.jpg){width="200px"}
 </center>
 :::
 ::: {.column width="80%"}
@@ -491,7 +491,7 @@ Fachbereich Gesundheitswesen<br>
 ## 
 
 :::{.absolute top=-90 .tc}
-![](_extensions/produnis/hsnr/HSNRtheme/GebauedeH_Rand.webp){width=80%}
+![](_extensions/produnis/hsnr/GebauedeH_Rand.webp){width=80%}
 :::
 
 <br><br><br><br><br><br><br>
@@ -500,7 +500,7 @@ Fachbereich Gesundheitswesen<br>
 :::: {.columns}
 ::: {.column width="18%"}
 <center>
-![](_extensions/produnis/hsnr/HSNRtheme/HSNLogo_quadrat2.jpg){width="200px"}
+![](_extensions/produnis/hsnr/HSNLogo_quadrat2.jpg){width="200px"}
 </center>
 :::
 ::: {.column width="80%"}
@@ -518,7 +518,7 @@ Fachbereich Gesundheitswesen<br>
 
 
 <!-- ------ Literatur -------------------------------------->
-## {.smaller background-image="_extensions/produnis/hsnr/HSNRtheme/bibliothek.jpg" background-size="120%"}
+## {.smaller background-image="_extensions/produnis/hsnr/bibliothek.jpg" background-size="120%"}
 
 :::: {.literaturliste}
 ::: {#refs}

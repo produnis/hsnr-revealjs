@@ -8,12 +8,11 @@ contributes:
       embed-resources: true
       transition: fade
       background-transition: slide
-      theme: [default, HSNRtheme/HSNR.scss]
+      theme: [default, HSNR.scss]
       date-format: long
-      footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
       lang: de
-      csl: HSNRtheme/apa-single-spaced.csl
-      logo: HSNRtheme/HSNLogo_quadrat2.jpg
+      csl: apa-single-spaced.csl
+      logo: HSNLogo_quadrat2.jpg
       slide-number: true
       scrollable: true
       citations-hover: true
@@ -26,6 +25,5 @@ contributes:
       hide-cursor-time: 200
       link-external-icon: true
       link-external-newwindow: true
-      bibliography: HSNRtheme/literatur.bib
       filters: 
-        - HSNRtheme/timer.lua
+        - timer.lua
