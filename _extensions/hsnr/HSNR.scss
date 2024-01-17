@@ -324,15 +324,16 @@ figcaption {
 }
 
 .visitenkarte2 {
-  border-width: thin;
-  background-color: #CDECFF;
+  background-color: #C8D4DC;
   font-size: 40px;
   color: #185191;
+  border: ridge #185191;
+  border-width: 1px;
   border-radius: 25px;
   padding-left: 15px;
   padding-right: 1px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
 }
 
 .literaturliste {
