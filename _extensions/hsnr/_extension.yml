@@ -27,3 +27,5 @@ contributes:
       link-external-newwindow: true
       filters: 
         - timer.lua
+      shortcodes:
+        - orcid.lua
