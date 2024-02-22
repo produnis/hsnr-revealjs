@@ -1,7 +1,4 @@
-quarto.doc.add_html_dependency({
-  name = "orcid",
-  version = "1.0.0"
-})
+
 local str = pandoc.utils.stringify
 
 return {

@@ -42,6 +42,7 @@ Allgemeine Informationen finden Sie unter
 - <https://quarto.org/docs/presentations/revealjs/presenting.html>
 - <https://quarto.org/docs/presentations/revealjs/advanced.html>
 
+{{< orcid 1 >}}
 <!------------------------------------>
 
 <!------------------------------------>
