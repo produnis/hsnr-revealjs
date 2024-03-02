@@ -1,0 +1,27 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$ data-background-image="_extensions/produnis/hsnr/KreisschwungKrefeld.png" data-background-position="left" data-background-size="21%">
+
+  <p class="title shadow-silver">$title$</p>
+$if(subtitle)$
+  <p class="subtitle">$subtitle$</p>
+$endif$
+
+<p class="author">
+$for(author)$
+  $author$$sep$, 
+$endfor$
+</p>
+$if(institute)$
+  <p class="institute">$institute$</p>
+$endif$
+
+$if(modul)$
+  <p class="institute">$modul$</p>
+$endif$
+
+$if(date)$
+  <p class="date">$date$  $if(kohorte)$ | $kohorte$ $endif$     </p>
+$endif$
+
+
+
+</section>
