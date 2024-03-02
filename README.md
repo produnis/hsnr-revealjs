@@ -11,6 +11,13 @@ You can obtain a copy of the extension by:
 - Downloading the latest version zip file at <https://git.ide3.de/fb10/quarto-hsnr-revealjs/-/archive/main/quarto-hsnr-revealjs-main.zip>
 - unpacking the zipfile and editiing `template.qmd`. You might add new `.qmd` files by duplicating the template, e.g. `cp template.qmd MyNewSlides.qmd` 
 
+### adding to an existing project
+
+To add this extension to an existing project
+
+- download the latest version zip file at <https://git.ide3.de/fb10/quarto-hsnr-revealjs/-/archive/main/quarto-hsnr-revealjs-main.zip> to your project's folder
+- add it to your project with `quarto add quarto-hsnr-revealjs-main.zip`. In this case, the `_extensions` folder will be extracted to your project, but no `template.qmd` will be added.
+
 ## Using
 
 Once the extension is installed, you can use the extension by setting the `format` inside of the document header to `hsnr-revealjs`.
