@@ -1,34 +1,34 @@
 ---
+title: "Quarto und Revealjs"
+subtitle: "Eine kurze Einführung"
 author:
-  - name: Your Name
-    orcid: 0000-0000-0000-0000
-    email: alias@email.com
-    affiliations: Your Institution
-date: last-modified
+  - name: Prof. Dr. Klara Aufbau
+institute: Fachbereich Gesundheitswesen
+modul: M3 Spezialwissen 2024
+kohorte: MHC
+date: 2004-12-21
 bibliography: literatur.bib
 format:
   hsnr-revealjs: 
     footer: "Prof. Dr. Theo Rethisch | Fachbereich 10 | Hochschule Niederrhein"
 ---
 
-
 ::: {.HSNR-title}
 
-## Quarto und Revealjs {background-image="_extensions/produnis/hsnr/KreisschwungKrefeld.png" background-position="left" background-size="21%"}
+## custom Title {background-image="_extensions/produnis/hsnr/KreisschwungKrefeld.png" background-position="left" background-size="21%"}
 
-### Eine kurze Einführung
+### Hier kann etwas ganz anderes stehen
 
-#### Prof. Dr. Klara Aufbau
+#### Prof. Dr. Anna Lüse
 
-##### Fachbereich Gesundheitsweisen
+##### delete `title` und `author` in `YAML` header...
 
-###### MHC M3 Spezialwissen 2024
+###### ... to hide the standard title page
 
-###### 05.01.2024 | MHC
 
 ![](_extensions/produnis/hsnr/Hochschule_niederrhein.png){.absolute bottom=0 right=0 width=300}
 :::
-
+<!-- ----------------------------------------- -->
 
 
 <!------------------------------------>
@@ -42,7 +42,6 @@ Allgemeine Informationen finden Sie unter
 - <https://quarto.org/docs/presentations/revealjs/presenting.html>
 - <https://quarto.org/docs/presentations/revealjs/advanced.html>
 
-{{< orcid 1 >}}
 <!------------------------------------>
 
 <!------------------------------------>

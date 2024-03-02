@@ -8,29 +8,47 @@ $presentation-heading-color: #185191 !default;
 
 // === TITELSEITE ========= //
 .title {
-  text-shadow: 2px 2px #07A1E2 !important;
-  text-align: center;
+
+  font-size: 65px;
+  font-weight: bold;
+  color: #185191 !important;
+  margin-top:  150px;
+  margin-left: 220px;
 }
 
 .subtitle {
   color: #07A1E2 !important;
+  font-size: 45px;
+  margin-left: 220px;
+  font-weight: bold;
 }
 
 .author {
   color: #185191 !important;
+  font-size: 35px;
+  margin-top:  50px;
+  margin-left: 220px;;
 }
 
 .institute {
   color: #185191 !important;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .date {
   color: #07A1E2 !important;
-  font-size: 18px;
+  font-size: 20px;
+  margin-left: 220px;
 }
 
 // -- eigene Titelseite -------//
+//  titel
+.HSNR-title h1{
+  color: #185191 !important;
+  margin-top:  150px;
+  margin-left: 220px;
+}
+
 //  titel
 .HSNR-title h2{
   color: #185191 !important;
@@ -1705,3 +1723,25 @@ figcaption {
   justify-content: center;
   font-size: 48px;
 }
+
+
+
+/* social links for last page */
+.social {
+  color: #185191 !important;
+  text-decoration: none;
+}
+
+.social a {
+  color: black !important;
+  text-decoration: none;
+}
+.social a:hover {
+  color: #07A1E2  !important;
+}
+
+/* --- keine icons hinter externen links */
+.social a.external:after{
+  display: none;
+}
+/* =============================== */
