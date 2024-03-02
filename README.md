@@ -2,19 +2,14 @@
 
 A [quarto extension](https://quarto.org/docs/extensions/) featuring an [HSNR](https://www.hs-niederrhein.de)-inspired theme for the [reveal.js format](https://quarto.org/docs/presentations/revealjs/).
 
-See the included [template.qmd](template.qmd) file for an example of the theme and integration into Quarto or explore the rendered version [here](http://quarto.thecoatlessprofessor.com/hsnr-revealjs/).
-
+See the included [template.qmd](template.qmd) file for an example of the theme and integration into Quarto
 
 ## Installing
 
-You can obtain a copy of the extension by using:
+You can obtain a copy of the extension by:
 
-```bash
-quarto use template produnis/hsnr-revealjs
-```
-
-This will install the extension and create an example qmd file that
-you can use as a starting place for your presentation slides.
+- Downloading the latest version zip file at <https://git.ide3.de/fb10/quarto-hsnr-revealjs/-/archive/main/quarto-hsnr-revealjs-main.zip>
+- unpacking the zipfile and editiing `template.qmd`. You might add new `.qmd` files by duplicating the template, e.g. `cp template.qmd MyNewSlides.qmd` 
 
 ## Using
 
